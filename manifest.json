@@ -1,10 +1,11 @@
 {
 	"$schema": "https://raw.githubusercontent.com/atampy25/simple-mod-framework/main/Mod%20Manager/src/lib/manifest-schema.json",
-	"version": "0.1.0",
+	"version": "1.0.0",
 	"id": "Notex.RagdollDeath",
 	"name": "Ragdoll Death",
 	"description": "Makes you radgoll when you die",
 	"authors": ["Notex"],
-	"frameworkVersion": "2.25.1",
-	"contentFolders": ["content"]
+	"frameworkVersion": "2.33.26",
+	"contentFolders": ["content"],
+	"updateCheck": "https://github.com/NotexMods/h3-ragdoll-death/releases/latest/download/updates.json"
 }
