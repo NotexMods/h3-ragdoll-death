@@ -13,11 +13,33 @@
 					"properties": {
 						"m_bActivateOnStart": {
 							"type": "bool",
-							"value": true
+							"value": false
 						},
 						"m_bUseDeathAnimation": {
 							"type": "bool",
 							"value": false
+						}
+					}
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"cafeb34213193432",
+				{
+					"parent": "158cb860b1fce56d",
+					"name": "zgameeventlistenerentity",
+					"factory": "[modules:/zgameeventlistenerentity.class].pc_entitytype",
+					"blueprint": "[modules:/zgameeventlistenerentity.class].pc_entityblueprint",
+					"properties": {
+						"m_eEvent": {
+							"type": "EGameEventType",
+							"value": "GET_IntroCutEnd"
+						}
+					},
+					"events": {
+						"EventOccurred": {
+							"Activate": ["cafe45f3d63324cb"]
 						}
 					}
 				}
