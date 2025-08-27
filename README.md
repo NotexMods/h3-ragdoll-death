@@ -6,4 +6,4 @@ Makes you radgoll when you die
 
 ---
 
-`Notex.RagdollDeath` v1.0.0, by Notex. This README was automatically generated from the mod's manifest.
+`Notex.RagdollDeath` v1.0.1, by Notex. This README was automatically generated from the mod's manifest.
